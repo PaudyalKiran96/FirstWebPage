@@ -1,0 +1,175 @@
+#title{
+  background-color: #ff4c68;
+}
+
+
+/* NAVIGATION */
+.nav-link{
+  margin: 16px;
+}
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-item{
+  padding: 0 18px;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  }
+
+.navbar-brand{
+  font-size: 30px;
+  font-family: "Ubuntu";
+
+}
+
+
+/* HeadSection */
+.HeadSection{
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: white;
+}
+
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features{
+  padding: 7%, 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+h3{
+  font-family: "Montserrat-Bold",  sans-serif;
+  /* padding: 5%; */
+}
+
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  /* padding: 5%; */
+}
+.feature-box{
+  padding: 5%;
+  text-align: center;
+
+}
+.feature-box:hover{
+border: 5px solid #00FFFF;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+/* ICONS MODIFICATION*/
+.fas-first {
+  color:#ef8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.fas-first:hover{
+  color:#ff4c68;
+  }
+
+  .fab{
+    margin-right: 10px;
+  }
+
+
+body{
+  font-family: "Montserrat";
+}
+.container-fluid{
+  padding: 3% 15% 5%;
+}
+
+
+
+/* Title Image */
+.dog{
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 995px) {
+  .dog{
+
+    width: 40%;
+
+    position: static;
+    transform: rotate(0);
+}
+.row{
+  text-align: center;
+}
+}
+
+/* TESTIMONIALS */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+/* DOG-2ND IMAGE */
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px;
+}
+
+/* PRICING */
+#pricing{
+  padding: 5%;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* CTA */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 4% 0 2%;
+  font-family: 'Montserrat-Black', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* FOOTER */
+#footer{
+  padding-top: 2%;
+  text-align: center;
+}
